@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <title>Hello, world!</title>
+  </head>
+  <body>
+    <h1>Set Qustions</h1>
+    <div class="container">
+    <form method="post" action="/">
+      {% csrf_token %}
+    <label  for="exampleFormControlInput1">qustion no:</label>
+    <input name="qno" type="text" class="form-control"  placeholder="option one" style="width:100px;border:3px solid #42f5d7">
+    <label for="exampleFormControlTextarea1">qustion:</label>
+    <textarea name="qus" class="form-control" id="exampleFormControlTextarea1" rows="3" style="width:600px;border:3px solid #42f5d7"></textarea><br>
+    <label  for="exampleFormControlInput1">option1</label>
+    <input name="op1" type="text" class="form-control"  placeholder="option one" style="width:400px;border:3px solid #42f5d7">
+    <label for="exampleFormControlInput1">option2</label>
+    <input name="op2" type="text" class="form-control"  placeholder="option two" style="width:400px;border:3px solid #42f5d7">
+    <label for="exampleFormControlInput1">option3</label>
+    <input name="op3" type="text" class="form-control"  placeholder="option three" style="width:400px;border:3px solid #42f5d7">
+    <label for="exampleFormControlInput1">option4</label>
+    <input name="op4"  type="text" class="form-control" id="exampleFormControlInput1" placeholder="option four" style="width:400px;border:3px solid #42f5d7"><br>
+      <button type="submit" class="btn btn-primary mb-2">submit</button>
+    </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
